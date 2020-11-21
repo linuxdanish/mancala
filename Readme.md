@@ -6,7 +6,7 @@ For that reason this implementation isn't always the most direct way of accompli
 Mancala consist of a board with two rows of 6 bowls each and two large bowls at either end. 48 stones or 
 marbles are divided into 4 in each bowl (minus the large scoring bowls at the end). The completely setup 
 board looks like this:
-
+```
 +--+  +-+ +-+ +-+ +-+ +-+ +-+  +--+  
 |  |<-|4|-|4|-|4|-|4|-|4|-|4|<-|  |  
 |  |  +-+ +-+ +-+ +-+ +-+ +-+  |  |  
@@ -14,7 +14,7 @@ board looks like this:
 |  |  +-+ +-+ +-+ +-+ +-+ +-+  |  |  
 |  |->|4|-|4|-|4|-|4|-|4|-|4|->|  |  
 +--+  +-+ +-+ +-+ +-+ +-+ +-+  +--+  
-
+```
 On each players turn, they select a bowl from their side of the board. Then scoop up all the stones in that 
 bowl and, moving around the board counter-clockwise, deposit one stone in each bowl (including their large 
 scoring bowls) until they run out of stones. 
